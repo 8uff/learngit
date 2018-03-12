@@ -1,4 +1,4 @@
 1.learngit
 2.first edit
 3.merge branch
-4.no-ff master
+4.no-ff merge
