@@ -20,7 +20,11 @@ git reflog                                                查看历史命令
 ## 版本回退
 git reset --hard HEAD(HEAD^,HEAD^^至HEAD~100,commit id)
 ## 放弃修改
-git checkout -- filename                                  放弃修改工作区内容  
-git reset HEAD  filename                                  放弃修改缓存区内容  
+git checkout -- <filename>                                  放弃修改工作区内容  
+git reset HEAD  <filename>                                  放弃修改缓存区内容  
 ## 删除文件
-git rm filename                                           删除文件  
+git rm <filename>                                           删除文件  
+## 分支
+### 创建分支
+`git branch <name>`  
+`git checkout <name>`  
