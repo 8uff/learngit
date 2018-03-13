@@ -35,7 +35,7 @@ Git安装。
 `git reset HEAD  <filename>`  
 ## 删除文件
 ### 删除文件
-git rm <filename>  
+`git rm <filename>` 
 ## 分支
 ### 创建分支
 `git branch <name>`  
@@ -48,7 +48,7 @@ git rm <filename>
 ### 合并分支至当前分支
 `git merge <name>`  
 ### no-ff方式合并分支至当前分支
-`git merge --no-ff -m "说明" <name>  
+`git merge --no-ff -m "说明" <name>`  
 ### 删除分支
 `git branch -d <name>`  
 ### 删除未合并分支
